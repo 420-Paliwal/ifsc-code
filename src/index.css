@@ -10,31 +10,33 @@ body {
 }
 
 .container {
-  max-width: 500px;
   margin: 80px auto;
-  background: #fff;
+  background: #e7e5e5;
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
 h2 {
-  text-align: center;
   margin-bottom: 20px;
 }
 
 input {
-  width: 100%;
-  padding: 10px;
+  padding: 10px; 
   margin-bottom: 12px;
   border-radius: 6px;
   border: 1px solid #ccc;
 }
 
 button {
-  width: 100%;
   padding: 10px;
-  background: #2563eb;
+  background: #15ae43;
   color: white;
   border: none;
   border-radius: 6px;
@@ -42,7 +44,7 @@ button {
 }
 
 button:hover {
-  background: #1e40af;
+  background: #09c34d;
 }
 
 .result {
